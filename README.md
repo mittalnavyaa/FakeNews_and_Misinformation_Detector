@@ -12,6 +12,9 @@ This project aims to detect fake news and misinformation using multiple datasets
 - **WELFake**:  
   You need to download the WELFake dataset from [Hugging Face - WELFake](https://huggingface.co/datasets/davanstrien/WELFake)
 
+- **PolitiFact**:  
+  You need to download the PolitiFact dataset from [Hugging Face - PolitiFact](https://huggingface.co/datasets/Jinyan1/PolitiFact)
+
 ---
 
 ## Project Structure and File Descriptions
@@ -19,7 +22,7 @@ This project aims to detect fake news and misinformation using multiple datasets
 ### GossipCop Folder
 - **GossipCop_EDA.py**  
   Performs Exploratory Data Analysis (EDA) on the GossipCop dataset, generating insights, visualizations, and word clouds.
-  
+
 ---
 
 ### WELFake Folder
@@ -28,6 +31,15 @@ This project aims to detect fake news and misinformation using multiple datasets
 
 - **WELFake_EDA.py**  
   Script to perform exploratory data analysis and visualize features in the WELFake dataset.
+
+---
+
+### PolitiFact Folder
+- **PolitiFact_EDA.ipynb**  
+  Jupyter notebook for exploratory data analysis on the PolitiFact dataset.
+
+- **Model_PolitiFact.ipynb**  
+  Jupyter notebook for training and evaluating models on the PolitiFact dataset using TF-IDF and Logistic Regression.
 
 ---
 
